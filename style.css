@@ -1,0 +1,620 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.menu-container {
+    width: 98vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2vw 0vw;
+    margin-bottom: 8vh;
+    padding-bottom: 1vh;
+    border-bottom: solid 2px #40cfff;
+}
+
+.menu {
+    color: #40cfff;
+    margin: 0vw 1vw 0vw 1vw;
+    text-decoration: none;
+    font-size: 1.2vw;
+    font-weight: 700;
+
+}
+
+.logo {
+    padding: 0vw 0.5vw 0vw 0.5vw;
+}
+
+.internship {
+    width: 220px;
+    height: 50px;
+    position: fixed;
+    bottom: 23vh;
+    right: 3vw;
+    border: solid 2px rgb(4, 0, 229);
+    border-radius: 10px;
+    background-color: red;
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom, rgb(48, 69, 255), rgba(18, 18, 15, 0.963));
+}
+
+.internship-button {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    text-decoration: none;
+}
+
+.backimage {
+    background-image: url(./images/backimage1.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#OCTANET {
+    font-size: 7vw;
+    padding-top: 10vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif 'Times New Roman', serif"
+
+}
+
+.company-name-inner-part {
+    padding: 10vw 3vw 3vw 5vw;
+    color: white;
+}
+
+.service-button {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 19vw;
+    height: 3vw;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 50;
+    padding-top: 1vh;
+}
+
+
+
+.company_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0vh 5vw;
+    background-image: url(./images/backimage2.jpg);
+    height: 80vh;
+}
+
+.box1 {
+    display: flex;
+    margin: 36vh 0vw 0vh 26vw;
+    background-color: rgb(73, 73, 252);
+    width: 15vw;
+    height: 8vh;
+
+}
+
+#workwithus {
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: larger;
+    display: flex;
+    padding-left: 2vw;
+    text-decoration: none;
+    align-items: center;
+}
+
+.box2-5 {
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.box2,
+.box3,
+.box4,
+.box5 {
+    text-align: center;
+    padding-top: 4vh;
+    font-size: larger;
+
+    border: solid 1px black;
+}
+
+.box2 h2,
+.box3 h2,
+.box4 h2,
+.box5 h2 {
+    font-size: 80px;
+}
+
+.box2 h3,
+.box3 h3,
+.box4 h3,
+.box5 h3 {
+    font-weight: 200;
+}
+
+.moreinfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90vh;
+
+    background-image: url(./images/backimage3.jpg);
+
+}
+
+.moreinfo1 {
+    background-color: rgba(6, 9, 45, 0.531);
+    color: white;
+    padding: 14vh 14vh;
+}
+
+.moreinfo1 div h2 {
+    padding-bottom: 7px;
+}
+
+.moreinfo1 div {
+    padding-right: 20px;
+    font-weight: 500;
+}
+
+.get-in-touch {
+    width: 15vw;
+    height: 3vw;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(227, 28, 95, 0.963));
+    margin-top: 23vh;
+
+}
+
+.getintouch-button {
+    color: white;
+    display: flex;
+    padding-top: 1.4vh;
+    justify-content: center;
+    font-size: 1.2vw;
+    text-decoration: none;
+}
+
+.moreinfo2 {
+    background-color: rgb(242, 238, 238);
+
+    padding: 14vh 10vh;
+}
+
+.moreinfo2 h2 {
+    font-size: 2vw;
+}
+
+.moreinfo2 div {
+    font-weight: 500;
+    padding: 1vw 0vw;
+}
+
+.moreinfo2-list img {
+    padding-right: 0.5vw;
+}
+
+.moreinfo2-list {
+    font-size: 1.5vw;
+    padding: 1vh 1vw;
+    font-weight: 500;
+    word-spacing: 6px;
+}
+
+.moreinfo2-list li {
+    padding: 1vw 0vw;
+}
+
+#course-previous-line {
+    padding: 17vh 5vw;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2vw;
+    text-align: center;
+}
+
+
+
+/* course section */
+.course {
+    display: grid;
+
+    /* width: 1vw; */
+    grid-template-columns: 1fr 1fr;
+}
+
+.webdev img {
+    padding-left: 10vw;
+    width: 690px;
+    height: auto;
+}
+
+.webdev h2 {
+    text-align: center;
+}
+
+.webdev h3 {
+    font-weight: 400;
+    margin: 0vh 3vw;
+    margin-left: 10vw;
+}
+
+
+
+.android img {
+    padding-left: 5vw;
+    width: 600px;
+    height: auto;
+}
+
+.android h2 {
+    text-align: center;
+}
+
+.android h3 {
+    font-weight: 400;
+    margin: 0vh 3vw;
+    margin-left: 10vw;
+}
+
+
+
+.java img {
+    padding-left: 5vw;
+    width: 600px;
+    height: auto;
+}
+
+.java h2 {
+    text-align: center;
+}
+
+.java h3 {
+    font-weight: 400;
+    margin: 0vh 3vw;
+    margin-left: 10vw;
+}
+
+
+
+.cloud img {
+    padding-left: 5vw;
+    width: 600px;
+    height: auto;
+}
+
+.cloud h2 {
+    text-align: center;
+}
+
+.cloud h3 {
+    font-weight: 400;
+    margin: 0vh 3vw;
+    margin-left: 10vw;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    padding: 5vh 3vw;
+    height: 15vh;
+    justify-content: space-around;
+    background-color: rgb(68, 68, 213);
+}
+
+#copyright {
+    font-weight: 700;
+    font-size: 1.2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* resonsiveness */
+
+@media screen and (max-width:500px) {
+    .menu-container {
+        width: 88vw;
+        display: flex;
+        justify-content: space-between;
+        margin: 2vw 0vw;
+        margin-bottom: 0vh;
+        border-bottom: solid 2px #40cfff;
+    }
+
+    .mainmenu {
+        border: solid 1px #40cfff;
+        border-radius: 10;
+    }
+
+    .menu {
+        color: #40cfff;
+        display: flex;
+        padding: 0vw 8vw 0vw 8vw;
+        text-decoration: none;
+        font-size: 4vw;
+
+        justify-content: center;
+        font-weight: 700;
+
+    }
+
+    .logo {
+        padding: 0vw 0vw 0vw 5vw;
+    }
+    .internship {
+        width: 150px;
+        height: 40px;
+        position: fixed;
+        bottom: 23vh;
+        right: 18vw;
+        
+    }    
+
+    .company_name {
+        background-image: url(./images/backimage3.jpg);
+        background-position: top center;
+        background-repeat: no-repeat;
+    }
+
+    .company-name-inner-part {
+        background-color: rgba(0, 0, 0, 0.596);
+        height: 60vh;
+        color: white;
+        padding-top: 30vh;
+        text-align: center;
+    }
+
+    #OCTANET {
+        font-size: 10vw;
+        padding-top: 0vh;
+        font-family: Verdana, Geneva, Tahoma, sans-serif 'Times New Roman', serif"
+
+    }
+
+    .service-button-button {
+        margin-left: 15vw;
+    }
+
+    .service-button img {
+        width: 6vw;
+        height: 4vh;
+        padding: 1vh 1vw 0vh 0vw;
+    }
+
+    .service-button {
+        width: 60vw;
+        height: 11vw;
+        border-radius: 30px;
+        font-size: 3vw;
+    }
+
+    .company_info {
+        display: block;
+        width: 88vw;
+        margin: 0vh 0vw;
+        background-color: white;
+    }
+
+    .box1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0vh 0vw 0vh 0vw;
+    }
+
+    .box2-5 {
+        display: grid;
+        background-color: white;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .box2,
+    .box3,
+    .box4,
+    .box5 {
+        padding-top: 0vh;
+    }
+
+    .box2 h2,
+    .box3 h2,
+    .box4 h2,
+    .box5 h2 {
+        font-size: 60px;
+    }
+
+    .moreinfo {
+        display: block;
+        height: 90vh;
+        background-image: url(./images/backimage3.jpg);
+
+    }
+
+    .moreinfo1 {
+        padding: 4vh 4vh;
+    }
+
+    .moreinfo1 div h2 {
+        padding-bottom: 0px;
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    .moreinfo1 div {
+        padding-right: 0px;
+        padding-top: 10px;
+        font-weight: 200;
+    }
+
+    .get-in-touch {
+        width: 50vw;
+        height: 10vw;
+        background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(227, 28, 95, 0.963));
+        margin-top: 10vh;
+        margin-left: 10vw;
+
+    }
+
+    .getintouch-button {
+        color: white;
+        display: flex;
+        padding-top: 0vh;
+        justify-content: center;
+        font-size: 4vw;
+        text-decoration: none;
+    }
+
+    .moreinfo2 {
+        background-color: rgb(242, 238, 238);
+
+        padding: 2vh 2vh;
+    }
+
+    .moreinfo2 h2 {
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    .moreinfo2 div {
+        font-size: small;
+        font-weight: 500;
+        padding: 1vw 0vw;
+    }
+
+    .moreinfo2-list {
+        font-size: 5vw;
+        padding: 0vh 1vw;
+        font-weight: 500;
+        word-spacing: 6px;
+    }
+
+    .moreinfo2-list li {
+        padding: 1vw 0vw;
+    }
+
+
+    #course-previous-line {
+        padding: 5vh 5vw;
+        background-color: rgba(247, 247, 239, 0.687);
+        font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    /* course section */
+    .course {
+        display: block;
+        padding-left: 1.5vw;
+    }
+
+    .webdev img {
+        width: 320px;
+        height: auto;
+    }
+
+    .webdev h2 {
+        font-size: large;
+    }
+
+    .webdev h3 {
+        font-weight: 400;
+        margin: 0vh 10vw;
+        font-size: small;
+    }
+
+
+
+    .android img {
+        width: 360px;
+        padding: 2vh 10vw;
+        height: auto;
+    }
+
+    .android h2 {
+        font-size: large;
+    }
+
+    .android h3 {
+        font-weight: 400;
+
+        margin: 0vh 10vw;
+        font-size: small;
+    }
+
+
+
+    .java img {
+        width: 360px;
+        padding: 2vh 10vw;
+        height: auto;
+    }
+
+    .java h2 {
+        font-size: large;
+    }
+
+    .java h3 {
+        font-weight: 400;
+
+        margin: 0vh 10vw;
+        font-size: small;
+    }
+
+
+
+    .cloud img {
+        width: 360px;
+        padding: 2vh 10vw;
+        height: auto;
+    }
+
+    .cloud h2 {
+        font-size: large;
+    }
+
+    .cloud h3 {
+        font-weight: 400;
+        margin: 0vh 0vw;
+        margin: 0vh 10vw;
+        font-size: small;
+    }
+
+    .footer {
+        display: block;
+        margin-top: 2vh;
+        padding: 1vh 14vw;
+        height: 10vh;
+    }
+
+    #copyright {
+        font-size: 3.5vw;
+    }
+
+    #logo {
+        display: flex;
+        padding-top: 1vh;
+    }
+}
